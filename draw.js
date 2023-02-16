@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var shape_1 = require("./shape");
+var circle = shape_1.Shape.circle(7);
+console.log("Circle area:".concat(circle.area));
+console.log("Circle perimeter:".concat(circle.perimeter));
+var rectangle = shape_1.Shape.rectangle(6);
+console.log("Rectangle area:".concat(rectangle.area));
+console.log("Rectangle perimeter:".concat(rectangle.perimeter));
+var square = shape_1.Shape.square(5);
+console.log("square area:".concat(square.area));
+console.log("square perimeter:".concat(square.perimeter));
